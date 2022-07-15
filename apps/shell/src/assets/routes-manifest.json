@@ -1,0 +1,14 @@
+{
+  "mfe1": {
+    "exposedModule": "./Module",
+    "displayName": "Mfe1",
+    "routePath": "mfe1",
+    "ngModuleName": "RemoteEntryModule"
+  },
+  "mfe2": {
+    "exposedModule": "./Module",
+    "displayName": "Mfe2",
+    "routePath": "mfe2",
+    "ngModuleName": "RemoteEntryModule"
+  }
+}
