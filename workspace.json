@@ -4,8 +4,11 @@
   "projects": {
     "mfe1": "apps/mfe1",
     "mfe1-e2e": "apps/mfe1-e2e",
+    "mfe1-main": "libs/mfe1-main",
     "mfe2": "apps/mfe2",
     "mfe2-e2e": "apps/mfe2-e2e",
+    "mfe2-main": "libs/mfe2-main",
+    "shared-ui": "libs/shared/ui",
     "shell": "apps/shell",
     "shell-e2e": "apps/shell-e2e"
   }

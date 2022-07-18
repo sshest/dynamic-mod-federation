@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 
 import { RemoteEntryComponent } from './entry.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
+import {Mfe1MainModule} from "@dyn-mfe/mfe1-main";
 
 @NgModule({
   declarations: [RemoteEntryComponent, NxWelcomeComponent],
@@ -15,6 +16,7 @@ import { NxWelcomeComponent } from './nx-welcome.component';
         component: RemoteEntryComponent,
       },
     ]),
+    Mfe1MainModule
   ],
   providers: [],
 })

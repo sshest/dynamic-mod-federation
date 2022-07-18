@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@dyn-mfe/mfe1-main": ["libs/mfe1-main/src/index.ts"],
+      "@dyn-mfe/mfe2-main": ["libs/mfe2-main/src/index.ts"],
+      "@dyn-mfe/shared/ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
