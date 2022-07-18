@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/mfe1-main/src",
+  "prefix": "dyn-mfe",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/mfe1-main"],
+      "options": {
+        "jestConfig": "libs/mfe1-main/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/mfe1-main/**/*.ts",
+          "libs/mfe1-main/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
