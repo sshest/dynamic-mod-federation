@@ -8,7 +8,7 @@ fetch('/assets/module-federation.manifest.json')
     return fetch('/assets/routes-manifest.json');
   })
   .then(res => res.json())
-  .then((definitions) => import('./bootstrap').then(m => {
-    return m.bootstrapShell(definitions)
-  }))
+  .then((definitions) => import('./bootstrap')
+    .then(m => m.bootstrapShell(definitions))
+  )
   .catch((err) => console.error(err));
